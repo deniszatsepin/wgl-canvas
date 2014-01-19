@@ -1,0 +1,14 @@
+{
+  "name": "wgl-canvas",
+  "repo": "deniszatsepin/wgl-canvas",
+  "description": "\"prepare canvas element for webgl context\"",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
