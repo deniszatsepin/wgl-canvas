@@ -6,7 +6,7 @@ function canvas (id, options) {
 		this.element = document.getElementById(id);
 	} else {
 		this.element = document.createElement('canvas');
-		document.appendChild(this.element);
+		document.body.appendChild(this.element);
 	}
 
 	this._width = options.width || 800;
