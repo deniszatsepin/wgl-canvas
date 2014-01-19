@@ -11,6 +11,8 @@ function canvas (id, options) {
 
 	this._width = options.width || 800;
 	this._height = options.height || 600;
+	this.width(this._width);
+	this.height(this._height);
 
 }
 
