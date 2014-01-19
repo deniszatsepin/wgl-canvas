@@ -11,10 +11,13 @@ function canvas (id, options) {
 
 	this._width = options.width || 800;
 	this._height = options.height || 600;
+	canvas.prototype.init.apply(this);
+};
+
+canvas.prototype.init = function (w) {
 	this.width(this._width);
 	this.height(this._height);
-
-}
+};
 
 canvas.prototype.width = function (w) {
 	if (!typeof w) {
